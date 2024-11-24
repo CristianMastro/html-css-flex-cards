@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TITLE AND INTRO */
+main{
+    width: 80%;
+    min-width: 200px;
+    margin: 50px auto;
+}
+
+#title-page{
+    color: #e53170;
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Concert One", sans-serif;
+}
+
+p{
+    font-family: "roboto", serif;
+    text-align: center;
+}
+
+/*END*/
