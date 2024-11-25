@@ -9,6 +9,11 @@ main{
     width: 80%;
     min-width: 200px;
     margin: 50px auto;
+    font-family: "roboto", serif;
+}
+
+.text-intro{
+    text-align: center;
 }
 
 #title-page{
@@ -18,9 +23,46 @@ main{
     font-family: "Concert One", sans-serif;
 }
 
-p{
-    font-family: "roboto", serif;
-    text-align: center;
+/*END*/
+
+/*BOX WORKER*/
+
+.box-worker{
+    display: flex;
+    color: white;
+    margin-top: 50px;
 }
 
-/*END*/
+.info-contact{
+    box-shadow: 5px #888888 ;
+    background-color:#0f0e17;
+    box-shadow: 2px 2px 10px 2px #888888;
+}
+
+.position-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 120px;
+    justify-content: space-around;
+}
+
+
+.space-info{
+    padding: 0px 40px 0px 20px;
+}
+
+
+img{
+    height: 120px;
+    width: 120px;
+}
+
+a{
+    text-decoration:none;
+    color:#39a2cf ;
+}
+
+h3{
+    font-family: "Concert One", sans-serif;
+}
