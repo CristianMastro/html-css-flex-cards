@@ -6,20 +6,20 @@
 
 /* TITLE AND INTRO */
 main{
-    width: 80%;
-    min-width: 200px;
-    margin: 50px auto;
+    width: 90%;
+    margin: 10px auto;
     font-family: "roboto", serif;
 }
 
 .text-intro{
     text-align: center;
+    margin: 50px 0 50px 0;
 }
 
 #title-page{
     color: #e53170;
     text-align: center;
-    margin: 20px 0;
+    margin-top: 20px;
     font-family: "Concert One", sans-serif;
 }
 
@@ -29,28 +29,27 @@ main{
 
 .box-worker{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.info-contact{
-    margin-top: 50px;
-    color: white;
-    display: flex;
-}
 
 .position-info{
-    display: flex;
-    background-color:#0f0e17;
-    box-shadow: 2px 2px 10px 2px #888888;
     height: 120px;
+    width: 480px;
+    display: flex;
+    color: white;
+    background-color:#0f0e17;
     flex-direction: column;
     flex-wrap: wrap;
+    align-content: flex-start;
     justify-content: space-around;
-    
+    box-shadow: 2px 2px 10px 2px #888888;
+    margin: 10px 0 10px 0;
 }
 
-
 .space-info{
-    padding: 0px 40px 0px 20px;
+    padding: 0 20px 0 10px;
 }
 
 
@@ -67,3 +66,5 @@ a{
 h3{
     font-family: "Concert One", sans-serif;
 }
+
+/* END */
